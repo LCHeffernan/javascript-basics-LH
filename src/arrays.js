@@ -15,7 +15,7 @@ const addToArray = (element, array) => {
 };
 
 const addToArray2 = (element, array) => {
-  // your code here
+  return array.concat(element);
 };
 
 const removeNthElement = (index, array) => {
