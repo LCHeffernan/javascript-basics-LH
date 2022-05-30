@@ -39,7 +39,7 @@ function isOdd(a) {
 };
 
 function isEven(a) {
-  // your code here
+  return a % 2 === 0;
 };
 
 function isSquare(a) {
