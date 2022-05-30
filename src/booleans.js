@@ -35,7 +35,7 @@ function isLessThanOrEqualTo(a, b) {
 };
 
 function isOdd(a) {
-  // your code here
+  return a % 2 !== 0;
 };
 
 function isEven(a) {
