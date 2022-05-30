@@ -55,7 +55,7 @@ function containsVowels(string) {
 };
 
 function isLowerCase(string) {
-  // your code here
+  return Boolean(!(string.match(/[A-Z]/g)));
 };
 
 module.exports = {
