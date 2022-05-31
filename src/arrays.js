@@ -44,7 +44,7 @@ const removeNthElement2 = (index, array) => {
 };
 
 const elementsStartingWithAVowel = strings => {
-  return strings.filter(n => n.match(/[aeiou]/i));
+  return strings.filter(n => n.match(/^[aeiou]/i));
 };
 
 const removeSpaces = string => {
