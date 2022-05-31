@@ -39,15 +39,16 @@ const onlyEven = numbers => {
 };
 
 const removeNthElement2 = (index, array) => {
-  // your code here
+  let newArr = array;
+  return newArr.splice(index, 1);
 };
 
 const elementsStartingWithAVowel = strings => {
-  // your code here
+  return strings.filter(n => n.match(/[aeiou]/i));
 };
 
 const removeSpaces = string => {
-  // your code here
+  return string.split(" ").join("");
 };
 
 const sumNumbers = numbers => {
