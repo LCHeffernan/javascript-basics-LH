@@ -27,7 +27,7 @@ const numbersToStrings = numbers => {
 };
 
 const uppercaseWordsInArray = strings => {
-  // your code here
+  return strings.map(str => str.toUpperCase());
 };
 
 const reverseWordsInArray = strings => {
