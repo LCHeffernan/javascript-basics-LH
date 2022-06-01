@@ -32,7 +32,13 @@ const getAges = people => {
 };
 
 const findByName = (name, people) => {
-  // your code here
+  for (let i =0; i<people.length; i++)
+    { 
+    if (people[i].name == name)
+      {
+        return people[i];
+      }  
+    }
 };
 
 const findHondas = cars => {
