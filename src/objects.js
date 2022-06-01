@@ -11,7 +11,7 @@ const getName = object => {
 };
 
 const getProperty = (property, object) => {
-  return object[age];
+  return object[property];
 };
 
 const hasProperty = (property, object) => {
