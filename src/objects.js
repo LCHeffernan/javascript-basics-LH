@@ -1,13 +1,17 @@
 const createPerson = (name, age) => {
-  // your code here
+  return {
+     name: name,
+     age: age,
+   }
+
 };
 
 const getName = object => {
-  // your code here
+  return object.name
 };
 
 const getProperty = (property, object) => {
-  // your code here
+  return object[age];
 };
 
 const hasProperty = (property, object) => {
