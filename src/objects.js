@@ -34,7 +34,7 @@ const getAges = people => {
 const findByName = (name, people) => {
   for (let i =0; i<people.length; i++)
     { 
-    if (people[i].name == name)
+    if (people[i].name === name)
       {
         return people[i];
       }  
@@ -42,8 +42,17 @@ const findByName = (name, people) => {
 };
 
 const findHondas = cars => {
-  // your code here
-};
+  let array = [];
+  for (let i =0; i<cars.length; i++)
+    { 
+    if (cars[i].manufacturer === 'Honda')
+      {
+        array.push(cars[i]);
+      }  
+    }
+    return array;
+}
+
 
 const averageAge = people => {
   // your code here
