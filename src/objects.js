@@ -2,7 +2,7 @@ const createPerson = (name, age) => {
   return {
      name: name,
      age: age,
-   }
+   };
 
 };
 
@@ -63,7 +63,13 @@ const averageAge = people => {
 };
 
 const createTalkingPerson = (name, age) => {
-  // your code here
+  return {
+    name: name,
+    age: age,
+    introduce: function (otherName) {
+      return 'Hi ' + otherName + ', my name is ' + this.name + ' and I am ' + this.age + '!';
+    }
+  };
 };
 
 module.exports = {
