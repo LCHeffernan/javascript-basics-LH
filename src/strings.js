@@ -1,6 +1,7 @@
-function sayHello (string) {
-  return 'Hello, ' + string + '!';
-};
+/* eslint-disable prettier/prettier */
+function sayHello(string) {
+  return `Hello, ${string}!`;
+}
 
 function uppercase (string) {
   return string.toUpperCase();
