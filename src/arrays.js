@@ -1,5 +1,6 @@
+/* eslint-disable prettier/prettier */
 const getNthElement = (index, array) => {
-  return index<array.length ? array[index] : array[index % array.length];
+  return array[index % array.length];
 };
 
 const arrayToCSVString = array => {
